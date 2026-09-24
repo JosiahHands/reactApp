@@ -4,10 +4,15 @@ body {
     background-color: black;
     box-sizing: border-box;
     color: black;
+    height: 100%;
 }
 .container {
     width: 50%;
     margin: 10px auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .result {
@@ -24,7 +29,8 @@ body {
 .buttons {
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(4, 1fr);
-    height: 500px;
+    height: auto;
+    flex: 1;
 }
 button, .result {
     font-size: 2em;
@@ -42,8 +48,16 @@ button, .result {
 
 button {
     background-color: gray;
+    -webkit-text-fill-color: black;
+    color: black;
+    -webkit-appearance: none;
+    appearance: none;
+    touch-action: manipulation;
 }
 
-button:hover {
+@media (hover: hover) and (pointer: fine) {
+    button:hover {
     background-color: lightgray;
+    }
 }
+
