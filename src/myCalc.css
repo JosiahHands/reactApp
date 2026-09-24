@@ -3,6 +3,7 @@ body {
     width: 100%;
     background-color: black;
     box-sizing: border-box;
+    color: black;
 }
 .container {
     width: 50%;
