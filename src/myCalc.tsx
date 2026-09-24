@@ -31,9 +31,9 @@ const MyCalc = () => {
                 <button id="btn4" onClick={() => handleClick("5")}>5</button>
                 <button id="btn5" onClick={() => handleClick("6")}>6</button>
                 <button id="btn-" onClick={() => handleClick("-")}>-</button>
-                <button id="btn6" onClick={() => handleClick("6")}>1</button>
-                <button id="btn7" onClick={() => handleClick("7")}>2</button>
-                <button id="btn8" onClick={() => handleClick("8")}>3</button>
+                <button id="btn6" onClick={() => handleClick("1")}>1</button>
+                <button id="btn7" onClick={() => handleClick("2")}>2</button>
+                <button id="btn8" onClick={() => handleClick("3")}>3</button>
                 <button id="btn=" onClick={handleCalc}>=</button>
                 <button id="btn." onClick={() => handleClick(".")}>.</button>
                 <button id="btn." onClick={() => handleClick("0")}>0</button>
